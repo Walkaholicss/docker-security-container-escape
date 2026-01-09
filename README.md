@@ -30,7 +30,7 @@ A deep dive into the `uptime-checker` container revealed a critical security fla
 ### 3. Credential Harvesting (Bonus)
 During the reconnaissance phase, I analyzed the internal news service (`wareville-times`) running on port 5002. By carefully inspecting the content of the "breaking news" articles, I discovered sensitive credentials hidden within the text.
 
-![Credential Discovery](images/6_secret_intel.jpg)
+![Credential Discovery](images/6_secret_intel.png)
 *Figure 3: Recovering the `deployer` user password (`DeployMaster2025!`) via pattern analysis of internal communications.*
 
 ## ⚡ Exploitation Path (The "Escape")
